@@ -7,7 +7,7 @@ import Fun from "./pages/Fun";
 import Work from "./pages/Work";
 import CaLamTo from "./pages/CaLamTo";
 import NguoiViet from "./pages/NguoiViet";
-import TrapToTap from "./pages/trapToTap";
+import TrapToTap from "./pages/TrapToTap";
 import DrawToStar from "./pages/DrawToStar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
