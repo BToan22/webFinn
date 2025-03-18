@@ -1,0 +1,8 @@
+@import url("https://db.onlinewebfonts.com/c/2afedaab5a5177410b408023384af22d?family=Helvetica+Neue+LT+W01+55+Roman");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.helvetica {
+  font-family: "Helvetica Neue LT W01 55 Roman", sans-serif;
+}
