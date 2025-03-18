@@ -60,6 +60,10 @@ const NguoiViet = () => {
         <div className="relative flex w-full max-w-6xl flex-col rounded-2xl bg-white shadow-xl sm:flex-row">
           {/* Cột trái: Nội dung */}
           <div className="relative w-full p-8 text-black sm:w-1/2">
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
             <p className="mt-2 text-lg sm:text-xl">
               Dolphin's collaboration with CGV to screen a long-forgotten
               Vietnamese love proverb serves as a reminder for couples that love
@@ -114,6 +118,9 @@ const NguoiViet = () => {
         <div className="relative flex w-full max-w-6xl flex-col rounded-2xl bg-white shadow-xl sm:flex-row">
           {/* Cột trái: Nội dung */}
           <div className="relative w-full p-8 text-black sm:w-1/2">
+          <br></br>
+          <br></br>
+          <br></br>
             <p className="mt-2 text-lg sm:text-xl">
               By collaborating with Vietjet Air, Dolphin aims to enrich
               passengers' travel experiences by sharing local proverbs about

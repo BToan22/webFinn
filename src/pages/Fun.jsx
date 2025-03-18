@@ -184,7 +184,7 @@ const Fun = () => {
           </div>
           <div className="flex w-full flex-col justify-center p-4 md:w-1/2 md:p-12">
             <h2 className="text-2xl font-semibold text-black md:text-4xl">
-              My second song, 'Are you awake at 12?'
+              My second song, <br></br>'Are you awake at 12?'
             </h2>
             <p className="mt-4 text-base text-black md:text-xl">
               Came from a really cute situation: my roommate loves to sleep in

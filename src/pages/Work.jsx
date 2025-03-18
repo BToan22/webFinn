@@ -26,7 +26,7 @@ const Work = () => {
       <div className="grid w-5/6 grid-cols-6 gap-4 lg:w-2/3">
         {/* Cột 1: Icon 2 (bên trái) */}
         <div className="col-span-1 flex flex-col items-center justify-end">
-          <img src={icon2} alt="Icon 2" className="h-32 w-auto lg:h-40" />
+          <img src={Bmo} alt="Icon 2" className="h-16 w-auto lg:h-40" />
         </div>
 
         {/* Cột 2: Card chính (chiếm 4 cột) */}
@@ -54,16 +54,16 @@ const Work = () => {
 
         {/* Cột 3: Icon 3 (bên phải) */}
         <div className="col-span-1 flex flex-col items-center justify-end">
-          <img src={icon3} alt="Icon 3" className="h-32 w-auto lg:h-40" />
+          <img src={icon2} alt="Icon 3" className="h-32 w-auto lg:h-40" />
         </div>
       </div>
 
       {/* Lưới 4 ảnh nhỏ bên dưới */}
       <div className="grid w-5/6 grid-cols-2 gap-6 lg:w-1/2">
         {[
-          { src: drawToStart, link: "/drawtostar" },
-          { src: karofi, link: "/traptotap" },
           { src: nguoiViet, link: "/nguoiviet" },
+          { src: karofi, link: "/traptotap" },
+          { src: drawToStart, link: "/drawtostar" },
         ].map((item, index) => (
           <a key={index} href={item.link} className="w-full">
             <motion.img

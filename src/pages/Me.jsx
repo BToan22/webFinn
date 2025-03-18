@@ -29,7 +29,7 @@ const Me = () => {
             <p className="font-semibold">Dear Explorers,</p>
             <p>Prepare your backpacks for adventure at:</p>
 
-            <p className="my-3 self-start pl-12 text-xl font-bold italic text-yellow-400">
+            <p className="my-3 self-start pl-60 text-xl font-bold italic text-yellow-400">
               "POR TEE FOLIO"
             </p>
 

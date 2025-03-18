@@ -25,7 +25,6 @@ const DrawToStar = () => {
           {/* Cột phải: Nội dung */}
           <div className="relative w-full p-8 pb-20 text-black sm:w-1/2 sm:pb-24">
             <p className="mt-6 text-2xl font-bold text-black">DRAW TO STARS</p>
-            <p className="mt-4 text-lg sm:text-xl">Context</p>
             <p className="mt-4 text-lg sm:text-xl">
               Many people choose to come to Starbucks to work and study.
               However, Starbucks Vietnam has a low customer return rate. There
