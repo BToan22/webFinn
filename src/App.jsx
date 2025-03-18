@@ -1,6 +1,4 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import Navbar from "./components/Navbar";
 import Me from "./pages/Me";
 import Fun from "./pages/Fun";
@@ -12,14 +10,12 @@ import DrawToStar from "./pages/DrawToStar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <Router>
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Me />} />
-
         <Route path="/calamto" element={<CaLamTo />} />
         <Route path="/nguoiviet" element={<NguoiViet />} />
         <Route path="/traptotap" element={<TrapToTap />} />
